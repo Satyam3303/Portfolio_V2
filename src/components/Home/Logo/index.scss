@@ -1,0 +1,42 @@
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 609px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+
+
+  .solid-logo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    height: 320px;
+    width: 320px;
+    object-fit: cover;
+    opacity: 1;
+    z-index: 1;
+    border: 0px solid beige;
+    transition: all 0.3s;
+    
+    animation-duration: 5s;
+
+    
+   
+
+    @media (max-width: 415px) {
+    display: none;
+    }
+
+    
+}
+
+}
+
